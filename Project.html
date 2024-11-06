@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Your Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Navigation Details</h1>
+        <form id="detailsForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="currentLocation">Current Location from Security Office:</label>
+                <input type="text" id="currentLocation" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination Flat Number:</label>
+                <input type="text" id="destination" required>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+        <div id="output" class="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
